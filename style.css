@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  
+  .repoList {
+    list-style:none;
+    border: 1px solid grey;
+    padding:5px;
+  }
+
+  .hidden {
+    display:none;
+  }
+  
+  #errorMessage {
+      color:red;
+  }
